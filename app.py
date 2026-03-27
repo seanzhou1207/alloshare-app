@@ -59,7 +59,6 @@ st.markdown("---")
 if st.session_state.page == "setup":
     setup()  # calls function in setup_portfolio.py
 elif st.session_state.page == "view":
-    st.write(cp.installed_solvers())
     strategy = Strategy()   # calls function in view_strategy.py
     strategy.upload_file()
     strategy.show_portfolio()
