@@ -1,0 +1,30 @@
+{
+  "strategy_name": "5k",
+  "target": "5800",
+  "portfolio": [
+    {
+      "Ticker": "SPYM",
+      "Category": "Stock",
+      "Weights": 0.6,
+      "Subweights": 0.8
+    },
+    {
+      "Ticker": "DIVI",
+      "Category": "Stock",
+      "Weights": 0.6,
+      "Subweights": 0.2
+    },
+    {
+      "Ticker": "BND",
+      "Category": "Bond",
+      "Weights": 0.4,
+      "Subweights": 0.8
+    },
+    {
+      "Ticker": "IAGG",
+      "Category": "Bond",
+      "Weights": 0.4,
+      "Subweights": 0.2
+    }
+  ]
+}

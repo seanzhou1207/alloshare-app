@@ -1,4 +1,3 @@
-alpaca==1.0.0
 cvxpy>=1.6.0
 numpy>=2.4.0
 pandas>=1.4.0,<3
