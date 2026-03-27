@@ -1,8 +1,8 @@
 alpaca==1.0.0
-cvxpy==1.6.0
-numpy==2.4.3
-pandas==3.0.1
-plotly==6.1.0
-pytz==2025.1
-streamlit==1.49.1
-yfinance==0.2.57
+cvxpy>=1.6.0
+numpy>=2.4.0
+pandas>=3.0.0
+plotly>=6.0.0
+pytz>=2025.1
+streamlit>=1.41.0
+yfinance>=0.2.50
