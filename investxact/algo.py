@@ -102,7 +102,7 @@ def run_optimization(budget: float, strategy_df: pd.DataFrame):
     try:
         problem.solve(solver=cp.GUROBI, verbose=False)
     except:
-        problem.solve(solver=cp.SCIP)
+        problem.solve()
 
     # Prepare your preferred return structure
     shares = q.value.round().astype(int)
